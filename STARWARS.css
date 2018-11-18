@@ -84,7 +84,6 @@ hr {
 
 }
 
-
 .noticias {
     display: flex;
     flex-direction: row;
@@ -117,4 +116,14 @@ ul.footerhorizontal {
     padding: 70px;
 }
 
+/* TABLETS */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+    }
+    
 
