@@ -112,14 +112,13 @@ h2 {
   
 }
 
-.listafooter {
+.footerhorizontal {
     background-color: orange;
     color: black;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 50px auto;
     padding: 10px;
 }
 
