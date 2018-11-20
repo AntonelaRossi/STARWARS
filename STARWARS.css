@@ -126,10 +126,8 @@ ul.footerhorizontal {
 
 /* TABLETS */
 @media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+    and (min-width: 768px) 
+    and (max-width: 1024px) {
 
     .header {
         display: flex;
@@ -161,10 +159,8 @@ ul.footerhorizontal {
 
 /* TELEFONO */
 @media only screen 
-and (min-width: 360px) 
-and (max-width: 480px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 1) {
+    and (min-width: 320px) 
+    and (max-width: 480px) {
 
     .header {
         display: flex;
@@ -178,7 +174,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 50px auto;
         padding: 10px;
     }
 
@@ -189,5 +184,24 @@ and (-webkit-min-device-pixel-ratio: 1) {
         color: beige;
         text-align: justify;
     
+    }
+
+    .caja1 {
+        width: 90%;
+        border: solid black 10px;
+    
+    }
+
+    .noticias {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        color: beige;
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .noti {
+        width: 100%;
     }
 }
