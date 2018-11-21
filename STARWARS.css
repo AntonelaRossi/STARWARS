@@ -1,6 +1,6 @@
-* {
-    font-family: 'Lato', sans-serif;
+body {
     background-color: black;
+    font-family: 'Lato', sans-serif;
 }
 
 .header {
@@ -24,14 +24,17 @@ ul.menuhorizontal {
     justify-content: space-around;
     margin: 50px auto;
     padding: 10px;
-    
 }
-
-.banner {
-    width: 100%;
+    
+.contenedor {
+    width: 1200px;
     background-color: black;
     display: flex;
     justify-content: center;
+}
+
+.banner img{
+    width: 100%;
 }
 
 .intro {
@@ -67,17 +70,12 @@ hr {
 }
 
 .box {
-    width: 60%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -webkit-flex;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0;
-    margin: 0 auto;
+    margin: 0px auto;
     list-style: none;
 }
 
@@ -86,7 +84,7 @@ hr {
     padding: 5px;
     width: 100px;
     height: 100px;
-    margin: 10px;
+    margin: 30 35 0 35px;
     }
 
 
@@ -108,14 +106,14 @@ h2 {
 }
 
 .footer {
-    background-color: orange !important;
+    background-color: orange;
     width: 100%;
     height: 100px;
   
 }
 
 ul.footerhorizontal {
-    background-color: orange !important;
+    background-color: orange;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -144,6 +142,17 @@ ul.footerhorizontal {
         align-items: center;
         margin: 50px auto;
         padding: 10px;
+    }
+
+    .contenedor {
+        width: 1024px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .banner {
+        width: 100%;
     }
 
     .intro {
@@ -175,6 +184,17 @@ ul.footerhorizontal {
         flex-direction: column;
         align-items: center;
         padding: 10px;
+    }
+
+    .contenedor {
+        width: 480px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .banner {
+        width: 100%;
     }
 
     .intro {
